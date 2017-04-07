@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hotel Dialogs</string>
+    <string-array name="equipes">
+        <item>Mercedes</item>
+        <item>RBR</item>
+        <item>Ferrari</item>
+        <item>McLaren</item>
+        <item>Williams</item>
+        <item>Force Indy</item>
+        <item>STR</item>
+        <item>Lotus</item>
+        <item>Mercedes</item>
+        <item>RBR</item>
+        <item>Ferrari</item>
+        <item>McLaren</item>
+        <item>Williams</item>
+        <item>Force Indy</item>
+        <item>STR</item>
+        <item>Lotus</item>
+    </string-array>
+</resources>
