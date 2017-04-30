@@ -1,8 +1,6 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
-/**
- * Created by eduardo on 23/03/17.
- */
+
 
 public class Escola {
 

@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by eduardo on 23/03/17.
- */
 
 public class EscolaAdapter extends ArrayAdapter<Escola> {
 
