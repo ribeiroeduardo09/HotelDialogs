@@ -1,21 +1,47 @@
 <resources>
     <string name="app_name">Hotel Dialogs</string>
-    <string-array name="equipes">
-        <item>Mercedes</item>
-        <item>RBR</item>
-        <item>Ferrari</item>
-        <item>McLaren</item>
-        <item>Williams</item>
-        <item>Force Indy</item>
-        <item>STR</item>
-        <item>Lotus</item>
-        <item>Mercedes</item>
-        <item>RBR</item>
-        <item>Ferrari</item>
-        <item>McLaren</item>
-        <item>Williams</item>
-        <item>Force Indy</item>
-        <item>STR</item>
-        <item>Lotus</item>
+    <string-array name="main">
+        <item>Reservar</item>
+        <item>Fazer Check-In</item>
+        <item>Problemas que podem ocorrer na estadia</item>
+        <item>Pedir comida</item>
+        <item>Fazer Check-Out</item>
+        <item>Geral/Utilitários</item>
+        <item>Escrever uma frase personalizada</item>
+    </string-array>
+    <string-array name="reservar">
+        <item>Eu gostaria de fazer uma reserva para os dias&#8230; (Selecione os dias)</item>
+        <item>Quais dias estão disponíveis para reserva este mês?</item>
+    </string-array>
+    <string-array name="checkin">
+        <item>Eu tenho uma reserva para hoje</item>
+        <item>Vocês servem&#8230; (Selecionar)</item>
+        <item>Que horas é servido&#8230; (Selecionar)</item>
+    </string-array>
+    <string-array name="servem">
+        <item>Café da manhã?</item>
+        <item>Almoço?</item>
+        <item>Jantar?</item>
+        <item>Comida nos quartos?</item>
+    </string-array>
+    <string-array name="horas">
+        <item>O café da manhã?</item>
+        <item>O almoço?</item>
+        <item>O jantar?</item>
+    </string-array>
+    <string-array name="problemas">
+        <item>O chuveiro não está esquentando</item>
+        <item>O ar condicionado não está funcionando</item>
+        <item>O papel higiênico acabou</item>
+        <item>O hóspede do quarto ao lado está fazendo muito barulho</item>
+        <item>A roupa de cama está suja</item>
+        <item>Preciso de mais toalhas</item>
+        <item>Eu perdi a chave do quarto</item>
+    </string-array>
+    <string-array name="comida">
+        <item>Eu gostaria de pedir comida</item>
+        <item>Eu gostaria de pedir o item (Escolher) do menu</item>
+        <item>Ponto da carne&#8230;</item>
+        <item>No restaurante do hotel&#8230;</item>
     </string-array>
 </resources>
