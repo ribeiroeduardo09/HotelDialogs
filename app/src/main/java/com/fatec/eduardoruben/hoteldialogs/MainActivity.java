@@ -1,5 +1,6 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -22,9 +23,36 @@ public class MainActivity extends AppCompatActivity {
         lista.setAdapter(adapter);
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                if (position == 0) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 1) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 2) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 3) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 4) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 5) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 6) {
+                    Intent myIntent = new Intent(view.getContext(), Reservar.class);
+                    startActivityForResult(myIntent, 0);
+                }
             }
         });
 
