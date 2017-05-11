@@ -26,7 +26,13 @@
                 android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
         </activity>
         <activity android:name=".Reservar2" />
-        <activity android:name=".Checkin"></activity>
+        <activity android:name=".Checkin" />
+        <activity android:name=".Servem" />
+        <activity android:name=".Horas" />
+        <activity android:name=".Problemas" />
+        <activity android:name=".Comida" />
+        <activity android:name=".PontoCarne" />
+        <activity android:name=".Restaurante"></activity>
     </application>
 
 </manifest>

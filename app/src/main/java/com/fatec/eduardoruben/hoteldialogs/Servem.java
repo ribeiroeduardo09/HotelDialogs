@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Checkin extends AppCompatActivity {
+public class Servem extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +30,9 @@ public class Checkin extends AppCompatActivity {
 
         //ListView começa aqui!!!
 
-        ListView lista = (ListView) findViewById(R.id.listaCheckin);
+        ListView lista = (ListView) findViewById(R.id.listaServem);
 
-        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.checkin, android.R.layout.simple_list_item_1);
+        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.servem, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
