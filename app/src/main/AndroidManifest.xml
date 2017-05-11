@@ -32,7 +32,11 @@
         <activity android:name=".Problemas" />
         <activity android:name=".Comida" />
         <activity android:name=".PontoCarne" />
-        <activity android:name=".Restaurante"></activity>
+        <activity android:name=".Restaurante" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".Avaliacao" />
+        <activity android:name=".Pagamento" />
+        <activity android:name=".Geral"></activity>
     </application>
 
 </manifest>
