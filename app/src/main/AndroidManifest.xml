@@ -25,7 +25,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
         </activity>
-        <activity android:name=".Reservar2"></activity>
+        <activity android:name=".Reservar2" />
+        <activity android:name=".Checkin"></activity>
     </application>
 
 </manifest>

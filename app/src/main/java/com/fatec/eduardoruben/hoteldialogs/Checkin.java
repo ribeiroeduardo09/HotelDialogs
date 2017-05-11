@@ -10,12 +10,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Reservar2 extends AppCompatActivity {
+public class Checkin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reservar2);
+        setContentView(R.layout.activity_checkin);
 
         //Floating button começa aqui!
 
@@ -32,7 +32,7 @@ public class Reservar2 extends AppCompatActivity {
 
         ListView lista = (ListView) findViewById(R.id.listaReservar);
 
-        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.reservar, android.R.layout.simple_list_item_1);
+        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.checkin, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
