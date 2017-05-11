@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e490217df228fbb3e499fba1debf1148231a0b7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\15a1e29ed76c57a4391f4172921b1c643d57b9fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3783f39f11f145e7ddbb5f058e5de7405ee33c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\17f04aefc53eeae732f5664724222255a07b0e28\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aaf57c56cf7da9152cfdfa417d8821882d6414c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\263badad7ee62c3ff66d9fa629f378e9c90ebcb8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f4ab100ced7ab54c9e97a0ef0fc5fe91c2f09b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\22370cb14ef1b9996e9f301362ba8816217bd5d2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62fbd6db751f7449780dd6c137668b5e8fbd2633\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_ed9e46c6076861ed51006a843c657490a362d471\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\15940c1ae9de5a584794e02ff77473f78b69b852\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_088ef2367413d10f27cb4d00754b4f4be9174b1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\3893ac3045d39fbb82de6832532f8f5d36c7b72a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20bc23a622232694cafe6016070ce808b1e0a598\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\fd615a94728725c4df72a264f36993ede141198c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24894f12ac611755d33492ada739f763217819b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="670270261f966b6361d2a20622dc335d068b77f4">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_61e3cff20112692bac2203ebc0162489183a587c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\1ba146b90564dd9e752745069857430e6736010c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35365e3f333c8c712270c2eeddb4877b54c6643e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\ae8e3d01fc2fd408febd0d343669d0a0d9129967\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f461ba092e3198614a906230201c0af98c7c0241\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\019d5541640c9c71bdb9af399cd8e23d64ed80ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f41f742b2c2a39962711ce9d8c0020e68d099b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\0a4b8f8e6158b1dd808180d8e440ff01e5e8e77e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e9dd6f12833fa0366b21a0212ecceb9f8de58fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ribei\.android\build-cache\595e38706582d51141df30e82a6899d40f49f153\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\ribei\AndroidStudioProjects\HotelDialogs\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c93c44be6821d4825661af58eb7161c975018ef\classes.dex" />
+    </item>
+
+</items>
