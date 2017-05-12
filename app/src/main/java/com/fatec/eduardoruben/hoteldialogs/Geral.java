@@ -17,7 +17,7 @@ public class Geral extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkin);
 
-        //Floating button começa aqui!
+        //Floating button começa aqui! Ruben
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
         fab.setOnClickListener(new View.OnClickListener() {
