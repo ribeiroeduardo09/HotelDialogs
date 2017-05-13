@@ -30,23 +30,23 @@ public class MainActivity extends AppCompatActivity {
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Checkin.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 2) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Problemas.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 3) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Comida.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 4) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Checkout.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 5) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Geral.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 6) {

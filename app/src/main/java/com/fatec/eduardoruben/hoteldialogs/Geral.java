@@ -49,7 +49,7 @@ public class Geral extends AppCompatActivity {
                 if (position == 2) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }/*
+                }
                 if (position == 3) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
@@ -65,7 +65,7 @@ public class Geral extends AppCompatActivity {
                 if (position == 6) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }*/
+                }
             }
         });
     }

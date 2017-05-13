@@ -49,7 +49,7 @@ public class Avaliacao extends AppCompatActivity {
                 if (position == 2) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }/*
+                }
                 if (position == 3) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
@@ -57,7 +57,7 @@ public class Avaliacao extends AppCompatActivity {
                 if (position == 4) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }
+                }/*
                 if (position == 5) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);

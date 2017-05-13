@@ -43,11 +43,11 @@ public class Checkin extends AppCompatActivity {
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Servem.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 2) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Horas.class);
                     startActivityForResult(myIntent, 0);
                 }/*
                 if (position == 3) {

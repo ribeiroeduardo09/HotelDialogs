@@ -19,7 +19,7 @@ public class Problemas extends AppCompatActivity {
 
         //Floating button começa aqui!
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speakProb);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +49,7 @@ public class Problemas extends AppCompatActivity {
                 if (position == 2) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }/*
+                }
                 if (position == 3) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
@@ -65,7 +65,7 @@ public class Problemas extends AppCompatActivity {
                 if (position == 6) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }*/
+                }
             }
         });
     }
