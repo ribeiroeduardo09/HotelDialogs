@@ -15,7 +15,7 @@ public class Comida extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkin);
+        setContentView(R.layout.activity_comida);
 
         //Floating button começa aqui!
 

@@ -15,7 +15,7 @@ public class Geral extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkin);
+        setContentView(R.layout.activity_geral);
 
         //Floating button começa aqui! Ruben
 
@@ -62,10 +62,10 @@ public class Geral extends AppCompatActivity {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
                 }
-                if (position == 6) {
+                /*if (position == 6) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
-                }
+                }*/
             }
         });
     }

@@ -15,21 +15,27 @@ public class Problemas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkin);
+        setContentView(R.layout.activity_problemas);
 
         //Floating button começa aqui!
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speakProb);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG);
-                        //.setAction("Action", null).show();
+                //.setAction("Action", null).show();
             }
         });
 
         //ListView começa aqui!!!
 
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
         ListView lista = (ListView) findViewById(R.id.listaProblemas);
 
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.problemas, android.R.layout.simple_list_item_1);

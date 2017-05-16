@@ -15,7 +15,7 @@ public class Checkout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkin);
+        setContentView(R.layout.activity_checkout);
 
         //Floating button começa aqui!
 
@@ -47,11 +47,11 @@ public class Checkout extends AppCompatActivity {
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 2) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Avaliacao.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 3) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), Pagamento.class);
                     startActivityForResult(myIntent, 0);
                 }/*
                 if (position == 4) {
