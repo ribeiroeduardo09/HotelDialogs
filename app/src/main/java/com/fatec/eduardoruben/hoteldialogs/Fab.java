@@ -1,5 +1,9 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.view.View;
+
 /*public class Fab {
     FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -9,4 +13,5 @@ package com.fatec.eduardoruben.hoteldialogs;
             //.setAction("Action", null).show();
         }
     });
-}*/
+}
+*/
