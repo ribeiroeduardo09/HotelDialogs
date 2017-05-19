@@ -1,6 +1,8 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 //.setAction("Action", null).show();
             }
         });
+        fab.setImageDrawable(new TextDrawable(fab.getContext(), "FAB", ColorStateList.valueOf(Color.BLACK), 32.f, TextDrawable.VerticalAlignment.BASELINE));
 
         //ListView começa aqui!!!
 
