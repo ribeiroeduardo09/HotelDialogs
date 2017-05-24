@@ -1,6 +1,8 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -72,11 +74,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_backward);
         speak.setOnClickListener(this);
         toEng.setOnClickListener(this);
+        toEng.setImageDrawable(new TextDrawable(toEng.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 32.f, TextDrawable.VerticalAlignment.BASELINE));
         toPort.setOnClickListener(this);
+        toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "PT", ColorStateList.valueOf(Color.WHITE), 32.f, TextDrawable.VerticalAlignment.BASELINE));
     }
 
     @Override
-            public void onClick(View v) {
+    public void onClick(View v) {
         int id = v.getId();
         switch (id) {
             case R.id.speak:
@@ -122,7 +126,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         fab.setImageDrawable(new TextDrawable(fab.getContext(), "FAB", ColorStateList.valueOf(Color.BLACK), 32.f, TextDrawable.VerticalAlignment.BASELINE));
 */
-        //ListView começa aqui!!!
 
 
 

@@ -8,6 +8,7 @@
         <item>Fazer Check-Out</item>
         <item>Geral/Utilitários</item>
         <item>Escrever uma frase personalizada</item>
+        <item> </item>
     </string-array>
     <string-array name="reservar">
         <item>Eu gostaria de fazer uma reserva para os dias&#8230; (Selecione os dias)</item>
