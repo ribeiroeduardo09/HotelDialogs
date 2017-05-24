@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_hd"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -36,7 +36,8 @@
         <activity android:name=".Checkout" />
         <activity android:name=".Avaliacao" />
         <activity android:name=".Pagamento" />
-        <activity android:name=".Geral"></activity>
+        <activity android:name=".Geral" />
+        <activity android:name=".Audio"></activity>
     </application>
 
 </manifest>
