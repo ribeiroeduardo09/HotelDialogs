@@ -127,6 +127,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fab.setImageDrawable(new TextDrawable(fab.getContext(), "FAB", ColorStateList.valueOf(Color.BLACK), 32.f, TextDrawable.VerticalAlignment.BASELINE));
 */
 
-
-
 }

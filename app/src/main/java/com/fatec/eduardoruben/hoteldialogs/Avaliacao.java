@@ -15,7 +15,7 @@ public class Avaliacao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_avaliacao);
+        setContentView(R.layout.activity_main);
 
         //Floating button começa aqui!
 

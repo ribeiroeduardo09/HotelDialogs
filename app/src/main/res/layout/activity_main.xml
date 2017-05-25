@@ -7,6 +7,23 @@
     android:layout_height="match_parent"
     tools:context="com.fatec.eduardoruben.hoteldialogs.MainActivity">
 
+    <ListView
+        android:id="@+id/listaPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:choiceMode="singleChoice"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/toEng"
         android:layout_width="wrap_content"
@@ -41,22 +58,5 @@
         app:elevation="6dp"
         app:fabSize="normal"
         app:pressedTranslationZ="12dp" />
-
-    <ListView
-        android:id="@+id/listaPrincipal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
-        android:choiceMode="singleChoice"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.design.widget.CoordinatorLayout>
