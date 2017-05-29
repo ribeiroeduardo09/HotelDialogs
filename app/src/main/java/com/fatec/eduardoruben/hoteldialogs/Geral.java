@@ -17,7 +17,7 @@ public class Geral extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_geral);
 
-        //Floating button começa aqui! Ruben
+        //Floating button começa aqui!
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +39,7 @@ public class Geral extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    Intent myIntent = new Intent(view.getContext(), Audio.class);
+                    Intent myIntent = new Intent(view.getContext(), testeAudio.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {
