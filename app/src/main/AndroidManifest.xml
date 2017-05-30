@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Reservar"
             android:label="@string/title_activity_reservar"
@@ -25,20 +26,49 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
         </activity>
-        <activity android:name=".Reservar2" />
-        <activity android:name=".Checkin" />
-        <activity android:name=".Servem" />
-        <activity android:name=".Horas" />
-        <activity android:name=".Problemas" />
-        <activity android:name=".Comida" />
-        <activity android:name=".PontoCarne" />
-        <activity android:name=".Restaurante" />
-        <activity android:name=".Checkout" />
-        <activity android:name=".Avaliacao" />
-        <activity android:name=".Pagamento" />
-        <activity android:name=".Geral" />
-        <activity android:name=".Audio" />
-        <activity android:name=".testeAudio"></activity>
+
+        <activity
+            android:name=".Reservar2"
+            android:label="@string/reservar" />
+        <activity
+            android:name=".Checkin"
+            android:label="@string/checkin" />
+        <activity
+            android:name=".Servem"
+            android:label="@string/servem" />
+        <activity
+            android:name=".Horas"
+            android:label="@string/horas" />
+        <activity
+            android:name=".Problemas"
+            android:label="@string/problemas" />
+        <activity
+            android:name=".Comida"
+            android:label="@string/comida" />
+        <activity
+            android:name=".PontoCarne"
+            android:label="@string/pontoCarne" />
+        <activity
+            android:name=".Restaurante"
+            android:label="@string/restaurante" />
+        <activity
+            android:name=".Checkout"
+            android:label="@string/checkout" />
+        <activity
+            android:name=".Avaliacao"
+            android:label="@string/avaliacao" />
+        <activity
+            android:name=".Pagamento"
+            android:label="@string/pagamento" />
+        <activity
+            android:name=".Geral"
+            android:label="@string/geral" />
+        <activity
+            android:name=".Audio"
+            android:label="@string/audio" />
+        <activity
+            android:name=".testeAudio"
+            android:label="@string/testeAudio" ></activity>
     </application>
 
 </manifest>
