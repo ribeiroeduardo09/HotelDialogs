@@ -1,6 +1,7 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,7 +11,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Avaliacao extends AppCompatActivity {
+
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +37,14 @@ public class Avaliacao extends AppCompatActivity {
 
         //ListView começa aqui!!!
 
-        ListView lista = (ListView) findViewById(R.id.listaAvaliacao);
+        final ListView lista = (ListView) findViewById(R.id.listaAvaliacao);
+
+        final List<String> list = new ArrayList<>();
+
+        Field[] fields = R.raw.class.getFields();
+        for(int i = 0; i < fields.length; i++){
+            list.add(fields[i].getName());
+        }
 
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.avaliacao, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);

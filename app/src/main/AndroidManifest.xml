@@ -63,12 +63,6 @@
         <activity
             android:name=".Geral"
             android:label="@string/geral" />
-        <activity
-            android:name=".Audio"
-            android:label="@string/audio" />
-        <activity
-            android:name=".testeAudio"
-            android:label="@string/testeAudio" ></activity>
     </application>
 
 </manifest>
