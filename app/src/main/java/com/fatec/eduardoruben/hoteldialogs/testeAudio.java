@@ -38,21 +38,17 @@ public class testeAudio extends AppCompatActivity {
             list.add(fields[i].getName());
         }
 
-        //remove first two elements
-        list.remove(0);
-        list.remove(0);
-
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l){
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if(mediaPlayer != null){
                     mediaPlayer.release();
                 }
 
-                int resID = getResources().getIdentifier(list.get(i), "raw", getPackageName());
+                int resID = getResources().getIdentifier(list.get(position), "raw", getPackageName());
                 mediaPlayer = MediaPlayer.create(testeAudio.this, resID);
                 mediaPlayer.start();
             }
