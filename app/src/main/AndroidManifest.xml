@@ -17,15 +17,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".Reservar"
-            android:label="@string/title_activity_reservar"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
-        </activity>
         <<<<<<< HEAD
         <activity android:name=".Reservar2" />
         <activity android:name=".Checkin" />
@@ -39,8 +30,6 @@
         <activity android:name=".Avaliacao" />
         <activity android:name=".Pagamento" />
         <activity android:name=".Geral" />
-        <activity android:name=".Audio" />
-        <activity android:name=".testeAudio" />
         <activity android:name=".VoiceRecog"></activity>
         =======
 
