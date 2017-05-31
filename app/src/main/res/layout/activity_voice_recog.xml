@@ -15,7 +15,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:textColor="@color/white"
-        android:textSize="26dp"
+        android:textSize="26sp"
         android:textStyle="normal" />
 
     <LinearLayout
@@ -32,15 +32,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:src="@drawable/ic_mic_white_24dp" />
+            android:src="@drawable/ic_mic_white_24dp"
+            android:contentDescription="@string/tap_on_mic" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Toque para falar"
+            android:text="@string/tap_on_mic"
             android:textColor="@color/white"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textStyle="normal" />
     </LinearLayout>
 

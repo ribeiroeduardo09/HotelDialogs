@@ -74,9 +74,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_backward);
         speak.setOnClickListener(this);
         toEng.setOnClickListener(this);
-        toEng.setImageDrawable(new TextDrawable(toEng.getContext(), "PT", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
+        //toEng.setImageDrawable(new TextDrawable(toEng.getContext(), "PT", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
         toPort.setOnClickListener(this);
-        toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
+        //toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
+
+
+        //toEng.setOnClickListener(Intent myIntent = new Intent(findViewById().getContext(), VoiceRecog.class));
     }
 
     @Override
