@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Reservar"
             android:label="@string/title_activity_reservar"
@@ -26,7 +25,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
         </activity>
-
         <activity
             android:name=".Reservar2"
             android:label="@string/reservar" />
@@ -63,6 +61,7 @@
         <activity
             android:name=".Geral"
             android:label="@string/geral" />
+        <activity android:name=".TextoVoz"></activity>
     </application>
 
 </manifest>
