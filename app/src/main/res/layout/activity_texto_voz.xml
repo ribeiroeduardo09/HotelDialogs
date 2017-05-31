@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.fatec.eduardoruben.hoteldialogs.TextoVoz">
 
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtParaFala"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOuvirTexto"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="74dp" />
 </android.support.constraint.ConstraintLayout>
