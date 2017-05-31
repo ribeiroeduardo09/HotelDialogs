@@ -38,7 +38,8 @@
         <activity android:name=".Pagamento" />
         <activity android:name=".Geral" />
         <activity android:name=".Audio" />
-        <activity android:name=".testeAudio"></activity>
+        <activity android:name=".testeAudio" />
+        <activity android:name=".VoiceRecog"></activity>
     </application>
 
 </manifest>

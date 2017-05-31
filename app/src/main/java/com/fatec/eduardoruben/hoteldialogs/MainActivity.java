@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -74,9 +75,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_backward);
         speak.setOnClickListener(this);
         toEng.setOnClickListener(this);
-        toEng.setImageDrawable(new TextDrawable(toEng.getContext(), "PT", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
+        //toEng.setImageDrawable(new TextDrawable(toEng.getContext(), "PT", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
         toPort.setOnClickListener(this);
-        toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
+        //toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
     }
 
     @Override
@@ -113,18 +114,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-
-        /*Floating button começa aqui!
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
-            }
-        });
-        fab.setImageDrawable(new TextDrawable(fab.getContext(), "FAB", ColorStateList.valueOf(Color.BLACK), 32.f, TextDrawable.VerticalAlignment.BASELINE));
-*/
 
 }
