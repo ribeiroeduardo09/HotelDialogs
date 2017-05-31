@@ -37,13 +37,6 @@ public class Problemas extends AppCompatActivity {
 
         //ListView começa aqui!!!
 
-
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-
         final ListView lista = (ListView) findViewById(R.id.listaProblemas);
 
         final List<String> list = new ArrayList<>();
@@ -63,7 +56,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -71,7 +64,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -79,7 +72,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -87,7 +80,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -95,7 +88,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -103,7 +96,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }
@@ -111,7 +104,7 @@ public class Problemas extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Problemas.this, resID);
                     mediaPlayer.start();
                 }

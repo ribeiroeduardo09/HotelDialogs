@@ -56,7 +56,7 @@ public class Restaurante extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Restaurante.this, resID);
                     mediaPlayer.start();
                 }
@@ -64,7 +64,7 @@ public class Restaurante extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Restaurante.this, resID);
                     mediaPlayer.start();
                 }
@@ -72,7 +72,7 @@ public class Restaurante extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Restaurante.this, resID);
                     mediaPlayer.start();
                 }/*

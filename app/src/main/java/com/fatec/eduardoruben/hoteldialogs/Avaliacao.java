@@ -22,7 +22,7 @@ public class Avaliacao extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_avaliacao);
 
         //Floating button começa aqui!
 
@@ -53,24 +53,44 @@ public class Avaliacao extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
-                    startActivityForResult(myIntent, 0);
+                    if(mediaPlayer != null){
+                        mediaPlayer.release();
+                    }
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
+                    mediaPlayer = MediaPlayer.create(Avaliacao.this, resID);
+                    mediaPlayer.start();
                 }
                 if (position == 1) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
-                    startActivityForResult(myIntent, 0);
+                    if(mediaPlayer != null){
+                        mediaPlayer.release();
+                    }
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
+                    mediaPlayer = MediaPlayer.create(Avaliacao.this, resID);
+                    mediaPlayer.start();
                 }
                 if (position == 2) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
-                    startActivityForResult(myIntent, 0);
+                    if(mediaPlayer != null){
+                        mediaPlayer.release();
+                    }
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
+                    mediaPlayer = MediaPlayer.create(Avaliacao.this, resID);
+                    mediaPlayer.start();
                 }
                 if (position == 3) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
-                    startActivityForResult(myIntent, 0);
+                    if(mediaPlayer != null){
+                        mediaPlayer.release();
+                    }
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
+                    mediaPlayer = MediaPlayer.create(Avaliacao.this, resID);
+                    mediaPlayer.start();
                 }
                 if (position == 4) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
-                    startActivityForResult(myIntent, 0);
+                    if(mediaPlayer != null){
+                        mediaPlayer.release();
+                    }
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
+                    mediaPlayer = MediaPlayer.create(Avaliacao.this, resID);
+                    mediaPlayer.start();
                 }/*
                 if (position == 5) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);

@@ -64,7 +64,7 @@ public class Geral extends AppCompatActivity {
                     mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                         @Override
                         public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(7+1), "raw", getPackageName());
+                            int resID = getResources().getIdentifier(list.get(8), "raw", getPackageName());
                             mediaPlayer = MediaPlayer.create(Geral.this, resID);
                             mediaPlayer.start();
                         }
@@ -74,7 +74,7 @@ public class Geral extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Geral.this, resID);
                     mediaPlayer.start();
                 }
@@ -98,7 +98,7 @@ public class Geral extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(5+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(6), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Geral.this, resID);
                     mediaPlayer.start();
                 }
@@ -106,7 +106,7 @@ public class Geral extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(6+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(7), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Geral.this, resID);
                     mediaPlayer.start();
                 }
@@ -114,7 +114,7 @@ public class Geral extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(4+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(5), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Geral.this, resID);
                     mediaPlayer.start();
                 }

@@ -53,7 +53,7 @@ public class Comida extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    if(mediaPlayer != null){
+                    if (mediaPlayer != null) {
                         mediaPlayer.release();
                     }
                     int resID = getResources().getIdentifier(list.get(0), "raw", getPackageName());
@@ -61,7 +61,7 @@ public class Comida extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 1) {
-                    if(mediaPlayer != null){
+                    if (mediaPlayer != null) {
                         mediaPlayer.release();
                     }
                     int resID = getResources().getIdentifier(list.get(0), "raw", getPackageName());
@@ -82,15 +82,15 @@ public class Comida extends AppCompatActivity {
                                 }
                             });
                         }
-                });
-                if (position == 2) {
-                    Intent myIntent = new Intent(view.getContext(), PontoCarne.class);
-                    startActivityForResult(myIntent, 0);
-                }
-                if (position == 3) {
-                    Intent myIntent = new Intent(view.getContext(), Restaurante.class);
-                    startActivityForResult(myIntent, 0);
-                }/*
+                    });
+                    if (position == 2) {
+                        Intent myIntent = new Intent(view.getContext(), PontoCarne.class);
+                        startActivityForResult(myIntent, 0);
+                    }
+                    if (position == 3) {
+                        Intent myIntent = new Intent(view.getContext(), Restaurante.class);
+                        startActivityForResult(myIntent, 0);
+                    }/*
                 if (position == 4) {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
@@ -103,6 +103,7 @@ public class Comida extends AppCompatActivity {
                     Intent myIntent = new Intent(view.getContext(), Reservar2.class);
                     startActivityForResult(myIntent, 0);
                 }*/
+                }
             }
         });
     }

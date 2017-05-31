@@ -62,7 +62,7 @@ public class Pagamento extends AppCompatActivity {
                     mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                         @Override
                         public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(7+1), "raw", getPackageName());
+                            int resID = getResources().getIdentifier(list.get(8), "raw", getPackageName());
                             mediaPlayer = MediaPlayer.create(Pagamento.this, resID);
                             mediaPlayer.start();
                         }
@@ -78,7 +78,7 @@ public class Pagamento extends AppCompatActivity {
                     mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                         @Override
                         public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(7+1), "raw", getPackageName());
+                            int resID = getResources().getIdentifier(list.get(8), "raw", getPackageName());
                             mediaPlayer = MediaPlayer.create(Pagamento.this, resID);
                             mediaPlayer.start();
                         }
@@ -94,7 +94,7 @@ public class Pagamento extends AppCompatActivity {
                     mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                         @Override
                         public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(7+1), "raw", getPackageName());
+                            int resID = getResources().getIdentifier(list.get(8), "raw", getPackageName());
                             mediaPlayer = MediaPlayer.create(Pagamento.this, resID);
                             mediaPlayer.start();
                         }

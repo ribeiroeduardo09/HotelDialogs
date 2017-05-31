@@ -60,7 +60,7 @@ public class Reservar2 extends AppCompatActivity {
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
-                    int resID = getResources().getIdentifier(list.get(3+1), "raw", getPackageName());
+                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
                     mediaPlayer = MediaPlayer.create(Reservar2.this, resID);
                     mediaPlayer.start();
                 }/*
