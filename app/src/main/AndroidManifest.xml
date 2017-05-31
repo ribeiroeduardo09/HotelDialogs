@@ -61,6 +61,9 @@
         <activity
             android:name=".Geral"
             android:label="@string/geral" />
+        <activity
+            android:name=".TextoVoz"
+            android:label="@string/textoFala"></activity>
     </application>
 
 </manifest>
