@@ -16,15 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Reservar"
-            android:label="@string/title_activity_reservar"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fatec.eduardoruben.hoteldialogs.MainActivity" />
-        </activity>
+
         <activity
             android:name=".Reservar2"
             android:label="@string/reservar" />
@@ -63,7 +55,10 @@
             android:label="@string/geral" />
         <activity
             android:name=".TextoVoz"
-            android:label="@string/textoFala"></activity>
+            android:label="@string/textoFala" />
+        <activity
+            android:name=".VoiceRecog"
+            android:label="Reconhecimento de Voz" />
     </application>
 
 </manifest>

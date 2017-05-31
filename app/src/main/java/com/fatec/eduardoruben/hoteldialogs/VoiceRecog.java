@@ -1,14 +1,11 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
 import java.util.ArrayList;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -17,7 +14,6 @@ import android.widget.Toast;
 public class VoiceRecog extends Activity {
 
     private TextView txtSpeechInput;
-    private ImageButton btnSpeak;
     private final int REQ_CODE_SPEECH_INPUT = 100;
 
     @Override
@@ -26,10 +22,10 @@ public class VoiceRecog extends Activity {
         setContentView(R.layout.activity_main);
 
         txtSpeechInput = (TextView) findViewById(R.id.txtSpeechInput);
-        btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
+        ImageButton btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
 
         // hide the action bar
-        getActionBar().hide();
+        //getActionBar().hide();
 
         btnSpeak.setOnClickListener(new View.OnClickListener() {
 

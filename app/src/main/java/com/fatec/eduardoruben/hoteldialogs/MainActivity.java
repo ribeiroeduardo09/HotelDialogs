@@ -79,7 +79,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //toPort.setImageDrawable(new TextDrawable(toPort.getContext(), "EN", ColorStateList.valueOf(Color.WHITE), 45.f, TextDrawable.VerticalAlignment.BASELINE));
 
 
-        //toEng.setOnClickListener(Intent myIntent = new Intent(findViewById().getContext(), VoiceRecog.class));
+        toEng.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, VoiceRecog.class));
+            }
+        });
+        toPort.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, VoiceRecog.class));
+            }
+        });
     }
 
     @Override
