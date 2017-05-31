@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name" translatable="false">Hotel Dialogs</string>
+    <string name="reservar">Reservar</string>
+    <string name="checkin">Check-in</string>
+    <string name="servem">Vocês servem...</string>
+    <string name="horas">Que horas é servido...</string>
+    <string name="problemas">Problemas na estadia</string>
+    <string name="comida">Pedir comida</string>
+    <string name="pontoCarne">Ponto da carne</string>
+    <string name="restaurante">No restaurante do hotel</string>
+    <string name="checkout">Check-out</string>
+    <string name="avaliacao">Avaliação da hospedagem</string>
+    <string name="pagamento">Modo de pagamento</string>
+    <string name="geral">Geral/Utilitários</string>
+
     <string-array name="main">
         <item>Reservar</item>
         <item>Fazer Check-In</item>
@@ -8,8 +21,8 @@
         <item>Fazer Check-Out</item>
         <item>Geral/Utilitários</item>
         <item>Escrever uma frase personalizada</item>
-        <item> </item>
     </string-array>
+
     <string-array name="reservar">
         <item>Eu gostaria de fazer uma reserva para os dias&#8230; (Selecione os dias)</item>
         <item>Quais dias estão disponíveis para reserva este mês?</item>
