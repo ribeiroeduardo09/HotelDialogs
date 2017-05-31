@@ -12,6 +12,7 @@
     <string name="avaliacao">Avaliação da hospedagem</string>
     <string name="pagamento">Modo de pagamento</string>
     <string name="geral">Geral/Utilitários</string>
+    <string name="textoFala">Texto para fala</string>
 
     <string-array name="main">
         <item>Reservar</item>
