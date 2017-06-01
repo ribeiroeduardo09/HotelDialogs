@@ -2,8 +2,8 @@
     <string name="app_name" translatable="false">Hotel Dialogs</string>
     <string name="reservar">Reservar</string>
     <string name="checkin">Check-in</string>
-    <string name="servem">Vocês servem...</string>
-    <string name="horas">Que horas é servido...</string>
+    <string name="servem">Vocês servem</string>
+    <string name="horas">Que horas é servido</string>
     <string name="problemas">Problemas na estadia</string>
     <string name="comida">Pedir comida</string>
     <string name="pontoCarne">Ponto da carne</string>
@@ -106,6 +106,4 @@
     <string name="speech_prompt">Say something&#8230;</string>
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
     <string name="tap_on_mic">Tap on mic to speak</string>
-    <string name="txtParaFala">Digite seu texto aqui</string>
-    <string name="btnOuvirTexto">Ouvir o texto</string>
 </resources>

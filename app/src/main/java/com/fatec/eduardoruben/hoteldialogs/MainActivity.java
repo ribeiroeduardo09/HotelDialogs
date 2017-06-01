@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 6) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), TextoVoz.class);
                     startActivityForResult(myIntent, 0);
                 }
             }
