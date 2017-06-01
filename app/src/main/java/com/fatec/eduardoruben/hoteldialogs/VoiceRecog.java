@@ -19,7 +19,7 @@ public class VoiceRecog extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_voice_recog);
 
         txtSpeechInput = (TextView) findViewById(R.id.txtSpeechInput);
         ImageButton btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
