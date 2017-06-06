@@ -8,10 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/MyApp" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/subProject" />
-            <option value="$PROJECT_DIR$/subProject/gson" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
