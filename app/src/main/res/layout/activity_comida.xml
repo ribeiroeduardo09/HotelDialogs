@@ -8,10 +8,12 @@
 
     <ListView
         android:id="@+id/listaComida"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="296dp"
+        android:layout_height="495dp"
         android:paddingBottom="95dp"
-        android:clipToPadding="false" />
+        android:clipToPadding="false"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/speak"

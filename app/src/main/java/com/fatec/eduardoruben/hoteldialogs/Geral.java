@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -51,34 +52,28 @@ public class Geral extends AppCompatActivity {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.geral, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    if(mediaPlayer != null){
-                        mediaPlayer.release();
-                    }
-                    int resID = getResources().getIdentifier(list.get(0), "raw", getPackageName());
-                    mediaPlayer = MediaPlayer.create(Geral.this, resID);
-                    mediaPlayer.start();
-                    mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                        @Override
-                        public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(8), "raw", getPackageName());
-                            mediaPlayer = MediaPlayer.create(Geral.this, resID);
-                            mediaPlayer.start();
-                        }
-                    });
+                    Intent myIntent = new Intent(view.getContext(), TextoVoz.class);
+                    myIntent.putExtra("inicio", "Estou no quarto ");
+                    myIntent.putExtra("texto", "ESCREVA O NÚMERO DO QUARTO");
+                    startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {
-                    if(mediaPlayer != null){
-                        mediaPlayer.release();
-                    }
-                    int resID = getResources().getIdentifier(list.get(4), "raw", getPackageName());
-                    mediaPlayer = MediaPlayer.create(Geral.this, resID);
-                    mediaPlayer.start();
+                    Intent myIntent = new Intent(view.getContext(), TextoVoz.class);
+                    myIntent.putExtra("inicio", "O número do meu quarto é ");
+                    myIntent.putExtra("texto", "ESCREVA O NÚMERO DO QUARTO");
+                    startActivityForResult(myIntent, 0);
                 }
                 if (position == 2) {
+
+                    dlg.setMessage("I need a taxi");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -87,6 +82,10 @@ public class Geral extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 3) {
+
+                    dlg.setMessage("I would like the contact of some mechanic");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -95,6 +94,10 @@ public class Geral extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 4) {
+
+                    dlg.setMessage("Where is the nearest bank?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -103,6 +106,10 @@ public class Geral extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 5) {
+
+                    dlg.setMessage("Where is the nearest restaurant?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -111,6 +118,10 @@ public class Geral extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 6) {
+
+                    dlg.setMessage("Where is the nearest diner?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }

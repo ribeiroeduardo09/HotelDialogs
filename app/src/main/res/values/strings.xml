@@ -25,13 +25,13 @@
     </string-array>
 
     <string-array name="reservar">
-        <item>Eu gostaria de fazer uma reserva para os dias&#8230; (Selecione os dias)</item>
+        <item>Eu gostaria de fazer uma reserva para os dias (...)</item>
         <item>Quais dias estão disponíveis para reserva este mês?</item>
     </string-array>
     <string-array name="checkin">
-        <item>Eu tenho uma reserva para hoje</item>
-        <item>Vocês servem&#8230; (Selecionar)</item>
-        <item>Que horas é servido&#8230; (Selecionar)</item>
+        <item>Tenho uma reserva para hoje</item>
+        <item>Vocês servem (...)</item>
+        <item>Que horas é servido (...)</item>
     </string-array>
     <string-array name="servem">
         <item>Café da manhã?</item>
@@ -50,14 +50,14 @@
         <item>O papel higiênico acabou</item>
         <item>O hóspede do quarto ao lado está fazendo muito barulho</item>
         <item>A roupa de cama está suja</item>
-        <item>Preciso de mais toalhas</item>
-        <item>Eu perdi a chave do quarto</item>
+        <item>Preciso de mais toalha</item>
+        <item>Perdi a chave do quarto</item>
     </string-array>
     <string-array name="comida">
         <item>Eu gostaria de pedir comida</item>
-        <item>Eu gostaria de pedir o item (Escolher) do menu</item>
-        <item>Ponto da carne&#8230;</item>
-        <item>No restaurante do hotel&#8230;</item>
+        <item>Eu gostaria de pedir o item (...) do Menu</item>
+        <item>Ponto da carne (...)</item>
+        <item>No restaurante do hotel (...)</item>
     </string-array>
     <string-array name="pontocarne">
         <item>Mal passada</item>
@@ -68,31 +68,31 @@
     </string-array>
     <string-array name="restaurante">
         <item>O que é isso?</item>
-        <item>Do que este prato é feito?</item>
+        <item>Do que esse prato é feito?</item>
         <item>Você poderia trazer a conta, por favor?</item>
     </string-array>
     <string-array name="checkout">
-        <item>Eu quero fazer o check-out</item>
+        <item>Quero fazer o check-out</item>
         <item>Muito obrigado</item>
-        <item>Avaliação da hospedagem&#8230;</item>
-        <item>Modo de pagamento&#8230;</item>
+        <item>Avaliação da hospedagem (...)</item>
+        <item>Modo de pagamento (...)</item>
     </string-array>
     <string-array name="avaliacao">
-        <item>Eu gostei muito da hospedagem</item>
-        <item>Eu gostei da hospedagem</item>
-        <item>Eu não gostei muito da hospedagem</item>
-        <item>Eu não gostei nada da hospedagem</item>
-        <item>Eu tive muitos problemas durante a hospedagem</item>
+        <item>Gostei muito da hospedagem</item>
+        <item>Gostei da hospedagem</item>
+        <item>Não gostei muito da hospedagem</item>
+        <item>Não gostei nada da hospedagem</item>
+        <item>Tive muitos problemas durante a hospedagem</item>
     </string-array>
     <string-array name="pagamento">
-        <item>Eu pagarei no cartão de crédito</item>
-        <item>Eu pagarei no cartão de débito</item>
-        <item>Eu pagarei no dinheiro</item>
+        <item>Pagarei no cartão de crédito</item>
+        <item>Pagarei no cartão de débito</item>
+        <item>Pagarei em dinheiro</item>
     </string-array>
     <string-array name="geral">
-        <item>Eu estou no quarto&#8230;</item>
-        <item>O número do meu quarto é&#8230;</item>
-        <item>Eu preciso de um taxi</item>
+        <item>Estou no quarto (...)</item>
+        <item>O número do meu quarto é (...)</item>
+        <item>Preciso de um táxi</item>
         <item>Eu gostaria do contato de algum mecânico</item>
         <item>Onde fica o banco mais próximo?</item>
         <item>Onde fica o restaurante mais próximo?</item>
