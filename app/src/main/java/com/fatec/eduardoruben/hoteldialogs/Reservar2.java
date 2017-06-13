@@ -56,7 +56,7 @@ public class Reservar2 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), DatePick.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {

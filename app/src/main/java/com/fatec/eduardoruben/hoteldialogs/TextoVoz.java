@@ -45,10 +45,15 @@ public class TextoVoz extends AppCompatActivity implements TextToSpeech.OnInitLi
             String valor1 = bundle.getString("inicio");
             texto1.setText(valor1);
         }
+        if(bundle.containsKey("meio"))
+        {
+            String valor2 = bundle.getString("meio");
+            textoParaFalar.setText(valor2);
+        }
         if(bundle.containsKey("fim"))
         {
-            String valor2 = bundle.getString("fim");
-            texto2.setText(valor2);
+            String valor3 = bundle.getString("fim");
+            texto2.setText(valor3);
         }
         if(bundle.containsKey("texto"))
         {
