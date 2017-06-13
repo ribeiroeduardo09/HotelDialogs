@@ -56,10 +56,10 @@ public class DatePick extends AppCompatActivity implements View.OnClickListener 
     }
 
     private void colocar_data() {
-        t1.setText((mDayIni + 1) + "/" + mMonthIni + "/" + mYearIni+" ");
+        t1.setText(mDayIni + "/" + (mMonthIni + 1) + "/" + mYearIni + " ");
     }
     private void colocar_data2() {
-        t2.setText("a " + (mDayIni + 1) + "/" + mMonthIni + "/" + mYearIni);
+        t2.setText("a " + mDayIni + "/" + (mMonthIni + 1) + "/" + mYearIni);
     }
 
     private DatePickerDialog.OnDateSetListener mDateSetListener =
