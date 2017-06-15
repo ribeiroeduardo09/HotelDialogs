@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">Hotel Dialogs</string>
+
+    <string name="API_KEY">AIzaSyA0_5E0z7HQLoMc89K3DjUtTfgTPlaFq2s</string>
+
     <string name="reservar">Reservar</string>
     <string name="checkin">Check-in</string>
     <string name="servem">Vocês servem</string>

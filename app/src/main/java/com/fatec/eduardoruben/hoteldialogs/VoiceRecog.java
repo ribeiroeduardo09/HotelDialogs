@@ -1,6 +1,5 @@
 package com.fatec.eduardoruben.hoteldialogs;
 
-import java.util.ArrayList;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -10,6 +9,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.util.ArrayList;
+
+import static com.fatec.eduardoruben.hoteldialogs.R.string.API_KEY;
+
 
 public class VoiceRecog extends Activity {
 
@@ -77,12 +80,4 @@ public class VoiceRecog extends Activity {
 
         }
     }
-/*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_voicerecg, menu);
-        return true;
-    }
-*/
 }
