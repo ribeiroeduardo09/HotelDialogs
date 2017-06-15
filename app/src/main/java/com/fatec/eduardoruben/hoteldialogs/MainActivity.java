@@ -5,6 +5,7 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.main, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
+
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -59,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 if (position == 6) {
                     Intent myIntent = new Intent(view.getContext(), TextoVoz.class);
+                    myIntent.putExtra("texto", "ESCREVA A FRASE PERSONALIZADA");
                     startActivityForResult(myIntent, 0);
                 }
             }

@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -49,14 +50,20 @@ public class Reservar2 extends AppCompatActivity {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.reservar, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
-                    Intent myIntent = new Intent(view.getContext(), Reservar2.class);
+                    Intent myIntent = new Intent(view.getContext(), DatePick.class);
                     startActivityForResult(myIntent, 0);
                 }
                 if (position == 1) {
+
+                    dlg.setMessage("What days are available for reservation this month?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }

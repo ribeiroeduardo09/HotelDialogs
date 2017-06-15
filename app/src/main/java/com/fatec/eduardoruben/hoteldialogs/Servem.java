@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -49,10 +50,16 @@ public class Servem extends AppCompatActivity {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.servem, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
+
+                    dlg.setMessage("Do you serve breakfast?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -69,6 +76,10 @@ public class Servem extends AppCompatActivity {
                     });
                 }
                 if (position == 1) {
+
+                    dlg.setMessage("Do you serve lunch?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -85,6 +96,10 @@ public class Servem extends AppCompatActivity {
                     });
                 }
                 if (position == 2) {
+
+                    dlg.setMessage("Do you serve dinner?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -101,6 +116,10 @@ public class Servem extends AppCompatActivity {
                     });
                 }
                 if (position == 3) {
+
+                    dlg.setMessage("Do you serve food in the rooms?");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }

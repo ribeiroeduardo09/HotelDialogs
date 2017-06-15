@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -49,10 +50,16 @@ public class Avaliacao extends AppCompatActivity {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.avaliacao, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
+
+                    dlg.setMessage("I really enjoyed the lodging");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -61,6 +68,10 @@ public class Avaliacao extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 1) {
+
+                    dlg.setMessage("I liked the lodging");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -69,6 +80,10 @@ public class Avaliacao extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 2) {
+
+                    dlg.setMessage("I did not really like the lodging");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -77,6 +92,10 @@ public class Avaliacao extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 3) {
+
+                    dlg.setMessage("I did not like anything about the lodging");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }
@@ -85,6 +104,10 @@ public class Avaliacao extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 4) {
+
+                    dlg.setMessage("I had many problems during the stay");
+                    dlg.show();
+
                     if(mediaPlayer != null){
                         mediaPlayer.release();
                     }

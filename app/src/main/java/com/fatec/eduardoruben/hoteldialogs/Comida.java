@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -49,10 +50,16 @@ public class Comida extends AppCompatActivity {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.comida, android.R.layout.simple_list_item_1);
         lista.setAdapter(adapter);
 
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(this);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 if (position == 0) {
+
+                    dlg.setMessage("I would like to order food");
+                    dlg.show();
+
                     if (mediaPlayer != null) {
                         mediaPlayer.release();
                     }
@@ -61,28 +68,11 @@ public class Comida extends AppCompatActivity {
                     mediaPlayer.start();
                 }
                 if (position == 1) {
-                    if (mediaPlayer != null) {
-                        mediaPlayer.release();
-                    }
-                    int resID = getResources().getIdentifier(list.get(0), "raw", getPackageName());
-                    mediaPlayer = MediaPlayer.create(Comida.this, resID);
-                    mediaPlayer.start();
-                    mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                        @Override
-                        public void onCompletion(MediaPlayer mediaPlayer) {
-                            int resID = getResources().getIdentifier(list.get(1), "raw", getPackageName());
-                            mediaPlayer = MediaPlayer.create(Comida.this, resID);
-                            mediaPlayer.start();
-                            mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                                @Override
-                                public void onCompletion(MediaPlayer mediaPlayer) {
-                                    int resID = getResources().getIdentifier(list.get(2), "raw", getPackageName());
-                                    mediaPlayer = MediaPlayer.create(Comida.this, resID);
-                                    mediaPlayer.start();
-                                }
-                            });
-                        }
-                    });
+                    Intent myIntent = new Intent(view.getContext(), TextoVoz.class);
+                    myIntent.putExtra("inicio", "Eu gostaria de pedir o item ");
+                    myIntent.putExtra("fim", ", do menu");
+                    myIntent.putExtra("texto", "ESCREVA O NÚMERO DO ITEM");
+                    startActivityForResult(myIntent, 0);
                 }
                 if (position == 2) {
                     Intent myIntent = new Intent(view.getContext(), PontoCarne.class);

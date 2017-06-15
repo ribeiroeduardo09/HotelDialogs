@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_date_pick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fatec.eduardoruben.hoteldialogs.DatePick"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-60dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:hint="DE"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:hint="ATÉ"
+            android:inputType="textPersonName" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fltActBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="190dp"
+            android:clickable="true"
+            app:elevation="0dp"
+            app:fabSize="normal"
+            app:rippleColor="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_done_white_24dp" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

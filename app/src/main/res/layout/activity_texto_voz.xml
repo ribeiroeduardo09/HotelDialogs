@@ -17,6 +17,30 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp" />
 
+    <EditText
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <EditText
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fltPlay"
         android:layout_width="wrap_content"
@@ -26,7 +50,11 @@
         app:fabSize="mini"
         app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
 
-</android.support.design.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp" />
 
-    <!--android:layout_marginLeft="100dp"
-            android:layout_marginTop="50dp"-->
+</android.support.design.widget.CoordinatorLayout>
