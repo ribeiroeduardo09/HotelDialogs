@@ -3,10 +3,7 @@
     package="com.fatec.eduardoruben.hoteldialogs">
 
     <uses-permission android:name="android.permission.INTERNET" />
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-=======
->>>>>>> origin/master
 
     <application
         android:allowBackup="true"
@@ -67,17 +64,10 @@
         <activity
             android:name=".VoiceRecog"
             android:label="Reconhecimento de Voz" />
-<<<<<<< HEAD
-
-        <service
-            android:name=".Translator"
-            android:enabled="true"
-            android:exported="true"></service>
-=======
         <activity
             android:name=".DatePick"
-            android:label="Data" ></activity>
->>>>>>> origin/master
+            android:label="Data" />
+
     </application>
 
 </manifest>
