@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         //*------------------Floating Action Button------------------*//
-        speak = (FloatingActionButton) findViewById(R.id.speak);
+        /**speak = (FloatingActionButton) findViewById(R.id.speak);
         toEng = (FloatingActionButton) findViewById(R.id.toEng);
         toPort = (FloatingActionButton) findViewById(R.id.toPort);
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open);
@@ -94,10 +94,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, VoiceRecog.class));
             }
-        });
+        });**/
     }
 
-    @Override
+    /**@Override
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
@@ -129,20 +129,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Log.d("Raj", "open");
         }
     }
-
-
-
-        /*Floating button começa aqui!
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.speak);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
-            }
-        });
-        fab.setImageDrawable(new TextDrawable(fab.getContext(), "FAB", ColorStateList.valueOf(Color.BLACK), 32.f, TextDrawable.VerticalAlignment.BASELINE));
-*/
-
+    **/
 }

@@ -14,7 +14,7 @@
         android:paddingBottom="95dp"
         android:clipToPadding="false" />
 
-    <android.support.design.widget.FloatingActionButton
+    <!--<android.support.design.widget.FloatingActionButton
         android:id="@+id/toEng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,6 +49,6 @@
         android:visibility="visible"
         app:elevation="6dp"
         app:fabSize="normal"
-        app:pressedTranslationZ="12dp" />
+        app:pressedTranslationZ="12dp" />-->
 
 </android.support.design.widget.CoordinatorLayout>
