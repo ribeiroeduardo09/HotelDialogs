@@ -36,7 +36,7 @@ public class DatePick extends AppCompatActivity implements View.OnClickListener 
         sYearIni = C.get(Calendar.YEAR);
         t1 = (EditText) findViewById(R.id.editText3);
         t2 = (EditText) findViewById(R.id.editText4);
-        ok = (FloatingActionButton) findViewById(R.id.fltActBtn);
+        //*ok = (FloatingActionButton) findViewById(R.id.fltActBtn);
 
         t1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,10 +15,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Boolean isFabOpen = false;
+public class MainActivity extends AppCompatActivity { //implements View.OnClickListener {
+    /*private Boolean isFabOpen = false;
     private FloatingActionButton speak,toEng,toPort;
-    private Animation fab_open,fab_close,rotate_backward,rotate_forward;
+    private Animation fab_open,fab_close,rotate_backward,rotate_forward;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
